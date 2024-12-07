@@ -1,0 +1,112 @@
+*{
+ margin: 0;
+ 
+
+
+}
+.one{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+h1,ul,li,nav{
+    display: inline;
+
+}
+li{
+    color: gray;
+    cursor: pointer;
+    text-decoration: none;
+}
+a{
+    color: grey;
+}
+a:hover{
+    color: white;
+}
+
+ul{
+    margin-left: 60%;
+}
+.five{
+    margin-top: 30px;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-width: 1;
+    border-color: gray;
+    height: 20px;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.three{
+    margin-top: 10px;
+}
+.four{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 5px;
+    margin: 5px;
+}
+#five{
+    color: gray;
+}
+#one{
+    background-color: white;
+    width: 150px;
+    height: 200px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+    margin-top: 20px;
+    
+}
+#two{
+    background-color: white;
+    width: 150px;
+    height: 200px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+
+
+}
+#three{
+    background-color: white;
+    width: 150px;
+    height: 200px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    display: inline-block;
+
+}
+.ten{
+    padding-top: 100;
+    cursor: pointer;
+}
+.ten:hover{
+    background-color: black;
+    color: white;
+}
+input{
+    width: 60%;
+    padding: 15px;
+   
+}
+.two{
+    padding: 25px;
+    text-align: center;
+}
+img{
+    width: 140px;
+    height: 140px;
+}
+.qwe{
+    padding: 20px;
+}
