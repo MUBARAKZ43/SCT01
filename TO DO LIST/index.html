@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do App</h1>
+        
+        <!-- Form to Add Task -->
+        <form id="task-form">
+            <input type="text" id="task-title" placeholder="Task Title" required>
+            <input type="datetime-local" id="task-date">
+            <button type="submit">Add Task</button>
+        </form>
+
+        <!-- Task List Section -->
+        <div id="lists-container">
+            <h2>Lists</h2>
+            <form id="list-form">
+                <input type="text" id="list-name" placeholder="New List Name" required>
+                <button type="submit">Create List</button>
+            </form>
+            <ul id="list-selector">
+                <li class="list-item active" data-list="default">Default</li>
+            </ul>
+        </div>
+
+        <!-- Tasks Section -->
+        <h2>Tasks</h2>
+        <ul id="task-list">
+            <!-- Tasks will be dynamically added here -->
+        </ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
